@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+*.env.local
+
+# Vector Store Index and runtime cache
+vector_store/
+*.faiss
+*.pkl
+
+# Uploaded documents / tactical drop folder (optional local ignores if sensitive, but keeping tracked dir structure)
+documents/*
+!documents/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
